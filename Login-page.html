@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <style>
+
+    *{
+      margin: 0;
+      background-color: rgb(248,248,248);
+    }
+    .main{
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .login{
+
+      border: 0.1px solid rgb(197, 196, 196);
+      margin-top: 5%;
+      width: 30%;
+      height: 70%;
+      text-align: center;
+      background-color: rgb(255,255,255);
+    }
+
+    img{
+      width: 150px;
+      height: 150px;
+      margin-top: 4%;
+    }
+
+    #text{
+      margin-top: 4%;
+      width: 90%;
+      height: 33px;
+      font-size: 17px;
+    }
+
+    .username{
+      margin-top: 4%;
+      width: 88%;
+      height: 30px;
+      font-size: 17px;
+    }
+
+    #password{
+      margin-top: 4%;
+      width: 88%;
+      height: 30px;
+      font-size: 17px;
+    }
+
+    #submit{
+      width: 30%;
+      height: 45px;
+      background-color: rgb(4, 202, 4);
+      color: white;
+      font-size: 23px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <div class="login">
+
+      <img src="images/logo2.png" alt="logo">
+
+      <form>
+        
+        <select id="text">
+          <option value="user">Select user</option>
+          <option value="alumni">Alumni</option>
+          <option value="teaching">Teaching</option>
+          <option value="student">Student</option>
+          <option value="employee">Non Teaching Employee</option>
+          <option value="dept">Non Teaching Department</option>
+        </select>
+
+        <input type="text" class="username" placeholder="Enter Username">
+        <input type="password" class="username" placeholder="Enter Password">
+
+        <br>
+        <br>
+        <input type="submit" id="submit" value="Login">
+      </form>
+
+    </div>
+  </div>
+  
+</body>
+</html>

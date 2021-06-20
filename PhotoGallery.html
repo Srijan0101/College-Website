@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        .wrap{
+            background-image: url("images/1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 1200px;
+            overflow: hidden;
+            
+        }
+
+        #title{
+            font-size: 60px;
+            margin-top: 2%;
+            font-weight: bold;
+            margin-left: 39%;
+            display: inline-block;
+            /* background-color: rgba(199, 198, 198, 0.3); */
+            /* color: white; */
+        }
+
+        .wrap2{
+
+            background-color: rgba(199, 198, 198, 0.3);
+            height: 100%;
+
+        }
+
+        .main{
+            margin: 2%;
+            margin-top: 1%;
+            margin-left: 3.6%;
+        }
+
+        .pics{
+            border: 2px solid rgb(199, 198, 198);
+            height: 200px;
+            width: 24%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="header">
+        <a href="https://www.nitkkr.ac.in/index.php" id="logo"><img src="images/logo2.png" style="height: 92px;" alt="NIT Kurukshetra Logo"></a>
+        <div class="college-name">
+            <div style="font-size: 27px; margin-left: 3%; padding-top: 2%; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">National Institute of Technology Kurukshetra</div>
+            <div style="font-size: 20px; margin-left: 3%; padding-top: 1%;">Institution of National Importance</div>
+        </div>
+
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+    <br>
+
+    <!-- Navigation bar start -->
+    <nav class="nav-bar">
+        
+        <a href="Website.html" class="link">
+            <div class="link">Home</div></a>
+
+            <div class="link dropdown">
+                <div class="link">Institute</div>
+                <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Location</a>
+                    <a href="#">Honours & Awards</a>
+                    <a href="#">IPR Cell</a>
+                </div>
+            </div>
+            <div class="link dropdown">
+                <div class="link">Academic</div>
+                <div class="dropdown-content">
+                    <a href="#">Programmes</a>
+                    <a href="#">Exam</a>
+                    <a href="#">Roll sheet</a>
+                    <a href="#">Time Table</a>
+                    <a href="#">Foreign Students</a>
+                    <a href="#">Date sheet</a>
+                    <a href="#">NEWS(Academic)</a>
+                    <a href="#">SENATE</a>
+                </div>
+            </div>
+            <div class="link dropdown">
+                <div class="link">Administration</div>
+                <div class="dropdown-content">
+                    <a href="#">Board of Governors</a>
+                    <a href="#">Chairperson</a>
+                    <a href="#">Director</a>
+                    <a href="#">Registrar</a>
+                    <a href="#">Financial Commtt.</a>
+                    <a href="#">Deans</a>
+                    <a href="#">Other Officers</a>
+                </div>
+            </div>
+            <div class="link dropdown">
+                <div class="link">Departments</div>
+                <div class="dropdown-content">
+                    <a href="#">Computer Engg.</a>
+                    <a href="#">Mechanical Engg.</a>
+                    <a href="#">Civil Engg.</a>
+                    <a href="#">Electrical Engg.</a>
+                    <a href="#">Electronics & Communication Engg.</a>
+                    <a href="#">Computer Application</a>
+                    <a href="#">Physics</a>
+                    <a href="#">Chemistry</a>
+                    <a href="#">Mathematics</a>
+                    <a href="#">Humanities & Social Sciences</a>
+                </div>
+            </div>
+            <div class="link dropdown">
+                <div class="link">Placement</div>
+                <div class="dropdown-content">
+                    <a href="#">Placement Team</a>
+                    <a href="#">Invitation</a>
+                    <a href="#">TNP Brochure</a>
+                    <a href="#">Major Recruiters</a>
+                    <a href="#">Placement Statistics</a>
+                    <a href="#">General Instructions</a>
+                    <a href="#">Reach Us</a>
+                </div>
+            </div>
+            <div class="link dropdown">
+                <div class="link">Student Activities</div>
+                <div class="dropdown-content">
+                    <a href="#">Tech Spardha</a>
+                    <a href="#">Confluence</a>
+                    <a href="#">Technical Socities</a>
+                    <a href="#">Cultural Clubs</a>
+                    <a href="#">Events</a>
+                    <a href="#">Events</a>
+                    <a href="#">Student Help Desk</a>
+                    <a href="#">NCC</a>
+                    <a href="#">IIC</a>
+                </div>
+            </div>
+            <div class="link dropdown">
+                <div class="link">Admission</div>
+                <div class="dropdown-content">
+                    <a href="#">B.Tech</a>
+                    <a href="#">M.Tech</a>
+                    <a href="#">Ph.D</a>
+                    <a href="#">M.B.A</a>
+                    <a href="#">M.C.A</a>
+                    <a href="#">DASA/MEA/ICCR/SII</a>
+                </div>
+            </div>
+            <div class="link dropdown">
+                <div class="link">More</div>
+                <div class="dropdown-content">
+                    <a href="#">Contact Us</a>
+                    <a href="#">SCOE</a>
+                    <a href="#">RAC-S(ISRO)</a>
+                    <a href="#">Alumni Association</a>
+                    <a href="#">IIC</a>
+                    <a href="#">NAD Digilocker</a>
+                </div>
+            </div>
+    </nav>
+
+    <div class="wrap">
+
+        <div class="wrap2">
+            <div id="title">Photo Gallery</div>
+            <div class="main">
+   
+        <img src="images/pg1.jpg" alt="pic1" class="pics">
+        <img src="images/pg2.jpg" alt="pic2" class="pics">
+        <img src="images/pg3.jpg" alt="pic3" class="pics">
+        <img src="images/pg20.jpg" alt="pic4" class="pics">
+        <img src="images/pg5.jpg" alt="pic5" class="pics">
+        <img src="images/pg6.jpg" alt="pic6" class="pics">
+        <img src="images/pg7.jpg" alt="pic7" class="pics">
+        <img src="images/pg8.jpg" alt="pic8" class="pics">
+        <img src="images/pg9.jpg" alt="pic9" class="pics">
+        <img src="images/pg10.jpg" alt="pic10" class="pics">
+        <img src="images/pg11.jpg" alt="pic11" class="pics">
+        <img src="images/pg12.jpg" alt="pic12" class="pics">
+        <img src="images/pg13.jpg" alt="pic13" class="pics">
+        <img src="images/pg14.jpg" alt="pic14" class="pics">
+        <img src="images/pg15.jpg" alt="pic15" class="pics">
+        <img src="images/pg16.jpg" alt="pic16" class="pics">
+        <img src="images/pg17.jpg" alt="pic17" class="pics">
+        <img src="images/pg18.jpg" alt="pic18" class="pics">
+        <img src="images/pg19.jpg" alt="pic19" class="pics">
+        <img src="images/pg4.jpg" alt="pic20" class="pics">
+    </div>
+        </div>
+
+    
+
+    </div>
+    
+    
+</body>
+</html>
